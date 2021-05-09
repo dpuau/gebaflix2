@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow: none;
+    white-space: normal;
+}
+
+html{
+    --scrollColor: rgb(32, 32, 32);
+    --scrollColorFundo: rgb(3, 3, 3);
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/fpage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.NomeSite{
+    width: 100%;
+    font-size: 5vw;
+    text-align: center;
+    padding: 3vw 0;
+    color: red;
+    font-weight: bold;
+}
+
+#icons1{
+    width: 100%;
+    padding-top: 2vw;
+    text-align: center;
+}
+
+#icons2{
+    width: 80%;
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+    text-align: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollColorFundo) var(--scrollColor);
+}
+
+#icons2::-webkit-scrollbar{
+    height: 0.5vw;
+}
+
+#icons2::-webkit-scrollbar-track{
+    background: var(--scrollColorFundo);
+}
+
+#icons2::-webkit-scrollbar-thumb{
+    background-color: var(--scrollColorFundo);
+    border-radius: 30px;
+    border: 30px solid var(--scrollColor);
+}
+
+#icons3{
+    width: 100%;
+    padding-top: 10vw;
+    text-align: center;
+}
+
+#f1c{
+    width: 10vw;
+    height: 13vw;
+    margin-left: 2vw;
+    display: inline-block;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 3s;
+    border-radius: 20px;
+    filter: blur(0.1vw);
+}
+
+#f2c{
+    width: 13vw;
+    height: 16vw;
+    margin-left: 2vw;
+    display: inline-block;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 3s;
+    border-radius: 20px;
+}
+
+
+#icons2 > label{
+    text-align: left;
+    margin-left: 3vw;
+    display: block;
+    color: white;
+    font-size: 2vw;
+    position: absolute;
+}
+
+#rd{
+    width: 10vw;
+    height: 13vw;
+    margin-top: 3vw;
+    margin-left: 2vw;
+    display: inline-block;
+    background-color: #1b1b1b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.dent{
+    width: 100%;
+    height: 5vw;
+    background-color: black;
+    opacity: 0.8;
+    position: relative;
+    top: 8vw;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    padding: 0.2vw 0.25vw;
+}
+.dent > label{
+    font-size: 1.1vw;
+}
+
+.dent > p{
+    font-size: 0.8vw;
+    padding-top: 0.5vw;
+}
+
+#op{
+    width: 100%;
+    height: 6vw;
+    background-color: #0a0a0a;
+    position: fixed;
+    bottom: 0%;
+    line-height: 6vw;
+    text-align: center;
+}
+
+#op > div{
+    width: 10%;
+    height: 2vw;
+    margin: auto;
+    margin-top: -1.5vw;
+    margin-right: 10vw;
+    background-color: #0a0a0a;
+    text-align: center;
+    line-height: 2vw;
+    cursor: pointer;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#op > div > h3{
+    color: #ffffff;
+    font-size: 1vw;
+}
+
+.gb1{
+    width: 30%;
+    height: 2vw;
+    background-color: #dadada;
+    color: #272727;
+    border: none;
+    border-radius: 20px;
+    padding: 1vw;
+    font-size: 1vw;
+    margin-right: 7vw;
+    cursor: text;
+    outline: none;
+}
+
+.gb2{
+    width: 10%;
+    height: 2vw;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+#mn{
+    width: 100%;
+    height: 1.3vw;
+    background-color: #0a0a0a;
+    position: fixed;
+    bottom: 0%;
+}
+
+#mn > div{
+    width: 10%;
+    height: 2vw;
+    margin: auto;
+    margin-top: -1.5vw;
+    margin-right: 10vw;
+    background-color: #0a0a0a;
+    text-align: center;
+    line-height: 2vw;
+    cursor: pointer;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#mn > div > h3{
+    color: #ffffff;
+    font-size: 1vw;
+}
